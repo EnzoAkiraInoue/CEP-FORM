@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Consulta CEP</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="frm-row">
+          <h2>Localização</h2>
+          <label for="cep">Informe seu cep</label>
+          <input type="text" name="cep" id="cep" maxlength="8" />
+          <small>Mensagem de erro</small>
+        </div>
+        <div class="frm-row">
+          <label for="Rua">Rua</label>
+          <input type="text" name="rua" id="rua" />
+        </div>
+        <div class="frm-row">
+          <label for="Bairro">Bairro</label>
+          <input type="text" name="bairro" id="bairro" />
+        </div>
+
+        <div class="frm-row-cid">
+          <label for="Cidade">Cidade</label>
+          <input type="text" name="cidade" id="cidade" />
+        </div>
+        <div class="frm-row-UF">
+          <label for="UF">UF</label>
+          <input type="text" name="uf" id="uf" />
+        </div>
+        <div class="frm-row-ibge">
+          <label for="IBGE">IBGE</label>
+          <input type="text" name="ibge" id="ibge" />
+        </div>
+        <div class="frm-row-ddd">
+          <label for="DDD">DDD</label>
+          <input type="text" name="ddd" id="ddd" />
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2227d85264.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
